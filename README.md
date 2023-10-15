@@ -1,5 +1,12 @@
 # Weekly-Progress-Report
 王鑫煜-周报
+# 2023-10-15
+## Progress for Past Week
+1.Fine-tuning whisper code
+2.get train-test data about ASR
+## Plan for Coming Week
+1.Evaluate the fine-tuned code
+
 # 2023-10-9
 ## Progress for Past Week
 1.Read some papers on ASR in depression
