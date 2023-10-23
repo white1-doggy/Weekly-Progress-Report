@@ -1,5 +1,12 @@
 # Weekly-Progress-Report
 王鑫煜-周报
+# 2023-10-23
+## Progress for Past Week
+1.Fine-tuning whisper code and evalute the cer and wer of finetune-model.
+## Plan for Coming Week
+1.Get the speech data of medical field.
+2.Evalute the difference between Large-V2 model and finetune-model.
+
 # 2023-10-15
 ## Progress for Past Week
 1.Fine-tuning whisper code
