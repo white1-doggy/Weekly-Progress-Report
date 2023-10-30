@@ -1,5 +1,12 @@
 # Weekly-Progress-Report
 王鑫煜-周报
+# 2023-10-29
+## Progress for Past Week
+1.Read papers about Whisper.
+2.Combine the speech from medical txt.
+## Plan for Coming Week
+1.Learn the usage of Audio diagram.
+
 # 2023-10-23
 ## Progress for Past Week
 1.Fine-tuning whisper code and evalute the cer and wer of finetune-model.
