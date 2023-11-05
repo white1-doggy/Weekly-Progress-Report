@@ -1,5 +1,12 @@
 # Weekly-Progress-Report
 王鑫煜-周报
+# 2023-11-5
+## Progress for Past Week
+1.Read a paper Scaling Laws for Neural Machine Translation. 
+2.Learn the principles of TTS.
+## Plan for Coming Week
+1.Learn the usage of TTS and ASR.
+
 # 2023-10-29
 ## Progress for Past Week
 1.Read papers about Whisper.
