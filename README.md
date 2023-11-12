@@ -1,5 +1,12 @@
 # Weekly-Progress-Report
 王鑫煜-周报
+# 2023-11-12
+## Progress for Past Week
+1.Summarizing the TTS prior development. 
+2.Run couqi program.
+## Plan for Coming Week
+1.Run so-vits-vec program.
+
 # 2023-11-5
 ## Progress for Past Week
 1.Read a paper Scaling Laws for Neural Machine Translation. 
