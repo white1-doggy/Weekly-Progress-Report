@@ -1,5 +1,12 @@
 # Weekly-Progress-Report
 王鑫煜-周报
+# 2023-11-19
+## Progress for Past Week
+1.Read papers about Vits
+2.Finetune vits models 
+## Plan for Coming Week
+1.Write DUI for whisper
+
 # 2023-11-12
 ## Progress for Past Week
 1.Summarizing the TTS prior development. 
