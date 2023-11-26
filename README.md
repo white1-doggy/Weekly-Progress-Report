@@ -1,11 +1,19 @@
 # Weekly-Progress-Report
 王鑫煜-周报
+# 2023-11-27
+## Progress for Past Week
+1.Read papers about Vits
+2.Write GUI for whisper
+## Plan for Coming Week
+1.Combine the speech data
+2.Finetune the Whisper with the data
+
 # 2023-11-19
 ## Progress for Past Week
 1.Read papers about Vits
 2.Finetune vits models 
 ## Plan for Coming Week
-1.Write DUI for whisper
+1.Write GUI for whisper
 
 # 2023-11-12
 ## Progress for Past Week
