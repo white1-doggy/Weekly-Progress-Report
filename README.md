@@ -1,5 +1,12 @@
 # Weekly-Progress-Report
 王鑫煜-周报
+# 2023-12-3
+## Progress for Past Week
+1.Read papers about Vits
+2.Combine the speech data and finetune the whisper model
+## Plan for Coming Week
+1.Analyse the reason for the high CER in this model
+
 # 2023-11-27
 ## Progress for Past Week
 1.Read papers about Vits
