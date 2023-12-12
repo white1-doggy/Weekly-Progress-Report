@@ -3,17 +3,18 @@
 # 2023-12-10
 ## Progress for Past Week
 1.Read three papers:
-(1)"Denoising Diffusion Probabilistic Models" 
-10.1109/powertech55446.2023.10202713 
-Diffusion model is not a new concept, this paper is the first to give a rigorous mathematical derivation, can be repeated code, improve the entire reasoning process. Later papers about diffusion models basically inherit the system of forward plus noise - reverse noise reduction - training.
-(2)"High-Resolution Image Synthesis with Latent Diffusion Models"
-10.1101/2022.11.18.517004 
-There are two key points worth noting in this paper: First, the encoder decoder is used to reduce the operation to the latent domain, and it returns to the most classic structure in the generation field, operating on the latent domain (i.e. z), which is also commonly used in vae. The second is the structure of cross-attention, which was used as early as the handwriting diffusion paper in 2020, but it did not attract widespread attention at the time. Since then cross-attention has become a common approach to multimodality and a new common conditional diffusion model.
-(3)"High-resolution image reconstruction with latent diffusion models from human brain activity"
-10.1101/2022.11.18.517004 
+(1)"Denoising Diffusion Probabilistic Models"  
+https://doi.org/10.1109/PowerTech55446.2023.10202713  
+Diffusion model is not a new concept, this paper is the first to give a rigorous mathematical derivation, can be repeated code, improve the entire reasoning process. Later papers about diffusion models basically inherit the system of forward plus noise - reverse noise reduction - training.  
+(2)"High-Resolution Image Synthesis with Latent Diffusion Models"  
+[10.48550/arXiv.2112.10752](https://arxiv.org/abs/2112.10752)  
+There are two key points worth noting in this paper: First, the encoder decoder is used to reduce the operation to the latent domain, and it returns to the most classic structure in the generation field, operating on the latent domain (i.e. z), which is also commonly used in vae. The second is the structure of cross-attention, which was used as early as the handwriting diffusion paper in 2020, but it did not attract widespread attention at the time. Since then cross-attention has become a common approach to multimodality and a new common conditional diffusion model.  
+(3)"High-resolution image reconstruction with latent diffusion models from human brain activity"  
+[10.1101/2022.11.18.517004 ](https://www.biorxiv.org/content/10.1101/2022.11.18.517004v2)   
 In terms of model architecture, the original LDM model is introduced first. Then, the corresponding relationship between the feature vectors extracted from different data sources and the LDM module and the model training process are introduced. And the corresponding relationship between the characteristics of different noise conditions, different diffusion stages, different U-Net layers and brain parts was compared.
-2.Try to trans the whisper to real-time whisper
-## Plan for Coming Week
+2.Try to trans the whisper to real-time whisper  
+## Plan for Coming Week  
+
 1.Make a real-time whisper model
 
 # 2023-12-3
