@@ -1,8 +1,25 @@
 # Weekly-Progress-Report
-王鑫煜-周报
+王鑫煜-周报 
+# 2023-12-18
+## Progress for Past Week  
+1.Read three papers:  
+(1)"HIGNN-TTS: HIERARCHICAL PROSODY MODELING WITH GRAPH NEURAL NETWORKS FOR EXPRESSIVE LONG-FORM TTS"    
+[https://doi.org/10.1109/PowerTech55446.2023.10202713](https://doi.org/10.48550/arXiv.2309.13907)  
+In this paper, a hierarchical prosodic modeling method named HiGNN-TTS is proposed to achieve high expressive speech synthesis of long-form speech. This method uses graph neural network (GNN) to assist speech synthesis. By extending the hierarchical prosody modeling capability of GNN, including the word, single sentence and cross-sentence levels, high expressive long speech synthesis is realized. Specifically, the method adds virtual global nodes to the syntax tree, enhancing the connection relationship between word nodes.   
+(2)"Attention Is All You Need"   
+https://doi.org/10.48550/arXiv.1706.03762  
+Attention is all you need, a paper presented at the NIPS 2017 conference, swept through the natural language processing community as quickly as Mars hit Earth, and quickly replaced the recurrent neural network family as the standard in future language models. For example, we are familiar with the GPT(generative pre-trained model) series models and BERT(Bidirectional encoder representation from transformer) series models, which are inspired by this article to adopt part of the transformer architecture, and at the same time, based on a large number of text pre-training, thus achieving a series of breakthrough effects.    
+(3)"Denoising Diffusion Probabilistic Models"    
+https://doi.org/10.48550/arXiv.2006.11239  
+This paper is the foundation work of DDPM and is one of the most classic papers in the field. In fact, diffusion model is not a new concept, this paper is the first to give a rigorous mathematical derivation, can be repeated code, improve the whole reasoning process. Later papers about diffusion models basically inherit the system of forward plus noise - reverse noise reduction - training.  
+2.Make a real-time whisper model   
+## Plan for Coming Week  
+1.Adjust the real_time model to make it smoother, make latency less than 5s or even less  
+2.Use the medical audio data to test this model
+
 # 2023-12-10
-## Progress for Past Week
-1.Read three papers:
+## Progress for Past Week  
+1.Read three papers:  
 (1)"Denoising Diffusion Probabilistic Models"  
 https://doi.org/10.1109/PowerTech55446.2023.10202713  
 Diffusion model is not a new concept, this paper is the first to give a rigorous mathematical derivation, can be repeated code, improve the entire reasoning process. Later papers about diffusion models basically inherit the system of forward plus noise - reverse noise reduction - training.  
@@ -14,7 +31,6 @@ There are two key points worth noting in this paper: First, the encoder decoder 
 In terms of model architecture, the original LDM model is introduced first. Then, the corresponding relationship between the feature vectors extracted from different data sources and the LDM module and the model training process are introduced. And the corresponding relationship between the characteristics of different noise conditions, different diffusion stages, different U-Net layers and brain parts was compared.
 2.Try to trans the whisper to real-time whisper  
 ## Plan for Coming Week  
-
 1.Make a real-time whisper model
 
 # 2023-12-3
