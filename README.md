@@ -1,5 +1,21 @@
 # Weekly-Progress-Report
 王鑫煜-周报 
+# 2023-12-24
+## Progress for Past Week  
+1.Read three papers:  
+(1)"FastSpeech: Fast, Robust and Controllable Text to Speech"    
+https://doi.org/10.48550/arXiv.1905.09263   
+FastSpeech, an end-to-end TTS model based on Transformer. Traditional end-to-end TTS models such as Tacotron2 are slow to generate speech because of the use of auto-regressive architecture. In order to speed up the calculation, the author constructs a model based on Transformer, thus realizing the parallel generation of mel-spectrogram. The experimental results show that FastSpeech is 270 times faster in mel-spectrogram generation and 38 times faster in speech generation than the traditional end-to-end TTS model, and has no influence on speech quality.      
+(2)"Learning Transferable Visual Models From Natural Language Supervision"   
+https://doi.org/10.48550/arXiv.2103.00020   
+This paper trains a transferable visual model from natural language, which is of great significance to the subsequent development of many fields, including object detection, image generation, video retrieval, zero-shot learning, etc., and even includes the recently popular diffusion model. There are also some work combining CLIP and diffusion model. In addition, OpenAI open source the trained model and API (https://github.com/openai/CLIP), which can be directly used for downstream tasks of reasoning, recently very fire image generation field, there are a lot of work to use the trained CLIP model.    
+(3)"LoRA: Low-Rank Adaptation of Large Language Models"    
+https://doi.org/10.48550/arXiv.2106.09685     
+LoRA (Low-Rank Adaptation) is a method for fine-tuning large language models. Its core idea is to fine-tune the model by adding a low-rank adjustment to the original weight of the model. This approach effectively reduces the number of parameters required for fine tuning while maintaining model performance.   
+2.Adjust the real_time model to make it smoother, make latency less than 5s or even less      
+## Plan for Coming Week  
+1.Keep finetuneing the real_time model, analyze the reason for the low recognition rate    
+
 # 2023-12-18
 ## Progress for Past Week  
 1.Read three papers:  
