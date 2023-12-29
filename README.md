@@ -1,5 +1,21 @@
 # Weekly-Progress-Report
-王鑫煜-周报 
+王鑫煜-周报  
+# 2023-12-29
+## Progress for Past Week  
+1.Read three papers:  
+(1)"FastSpeech 2: Fast and High-Quality End-to-End Text to Speech"        
+https://doi.org/10.48550/arXiv.2006.04558    
+First of all, the author abandoned the teacher-student training of knowledge distillation and adopted the way of training directly on the ground-truth. Secondly, more inputs that can control speech are introduced into the model, including phoneme duration mentioned in FastSpeech, energy, pitch and other new quantities. The authors name this model FastSpeech2. The author builds on this to propose the FastSpeech2s, a model that can generate speech directly from text instead of mel-spectrogram. The experimental results prove that FastSpeech2 is trained 3 times faster than FastSpeech, and FastSpeech2s has a faster synthesis speed than other models. In terms of sound quality, both FastSpeech2 and 2s surpass previous auto-regressive models.    
+(2)"Tacotron: Towards End-to-End Speech Synthesis"    
+https://doi.org/10.48550/arXiv.1703.10135      
+The Tacotron model is the first end-to-end TTS deep neural network model. Compared with traditional speech synthesis, it does not have complex phonetics and acoustic feature modules. Tacotron is an attention-based seq2seq model. These include encoders, attention-based decoders, and post-processing networks. In a high-level perspective, our model takes characters as input and generates an idiom spectrum, which is then converted into a waveform.        
+(3)"Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions"      
+https://doi.org/10.48550/arXiv.1712.05884   
+The architecture of Tacotron 2 is based on a combination of two main components: Tacotron and WaveNet. Tacotron is responsible for converting text into spectrograms, while WaveNet is responsible for converting spectrograms into high-quality speech waveforms. This end-to-end structure enables Tacotron 2 to generate speech directly from text without additional intermediate steps.Tacotron 2 uses an attention mechanism, which means that it can pay different degrees of attention to different parts of the input text during the generation of the spectrogram to improve the naturalness and fluency of speech.      
+2.Adjust the real_time model to make it smoothe. The latency have reached levels that are slightly higher than those of commercial products.       
+## Plan for Coming Week  
+1.Solve the question analyze of the low recognition rate. Device issues or python library issues?      
+
 # 2023-12-24
 ## Progress for Past Week  
 1.Read three papers:  
