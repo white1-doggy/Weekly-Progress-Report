@@ -1,5 +1,21 @@
 # Weekly-Progress-Report
 王鑫煜-周报  
+# 2023-1-7
+## Progress for Past Week  
+1.Read three papers:  
+(1)"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"        
+https://doi.org/10.48550/arXiv.1810.04805      
+BERT, which stands for Bidirectional Encoder Representation from Transformers, is a pre-trained representation model of language. It emphasizes that masked language model (MLM) is not used for pre-training by traditional one-way language model or shallow combination of two one-way language models as before, but a new Masked language model (MLM) is used to generate deep two-way language representations. BERT's paper was published with new state-of-art results for 11 NLP (Natural Language Processing) tasks.         
+(2)"Improving Language Understanding by Generative Pre-Training"       
+[https://doi.org/10.48550/arXiv.1703.10135](https://www.mikecaptain.com/resources/pdf/GPT-1.pdf)        
+This paper uses Generative Pre-Training (GPT) to improve language understanding. Existing Natural Language Processing (NLP) models often require a lot of Supervised Learning for specific tasks, ignoring the richness and diversity of the language itself. Therefore, a new approach is to pre-train a general-purpose language generation model with large-scale Unlabeled Text, and then fine-tune the model with small amounts of Labeled Data for different types of language understanding tasks.           
+(3)"Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions"      
+https://doi.org/10.48550/arXiv.1712.05884   
+The architecture of Tacotron 2 is based on a combination of two main components: Tacotron and WaveNet. Tacotron is responsible for converting text into spectrograms, while WaveNet is responsible for converting spectrograms into high-quality speech waveforms. This end-to-end structure enables Tacotron 2 to generate speech directly from text without additional intermediate steps.Tacotron 2 uses an attention mechanism, which means that it can pay different degrees of attention to different parts of the input text during the generation of the spectrogram to improve the naturalness and fluency of speech.      
+2.Adjust the real_time model to make it smoothe. The latency have reached levels that are slightly higher than those of commercial products.       
+## Plan for Coming Week  
+1.Solve the question analyze of the low recognition rate. Device issues or python library issues?  
+
 # 2023-12-29
 ## Progress for Past Week  
 1.Read three papers:  
@@ -9,12 +25,12 @@ First of all, the author abandoned the teacher-student training of knowledge dis
 (2)"Tacotron: Towards End-to-End Speech Synthesis"    
 https://doi.org/10.48550/arXiv.1703.10135      
 The Tacotron model is the first end-to-end TTS deep neural network model. Compared with traditional speech synthesis, it does not have complex phonetics and acoustic feature modules. Tacotron is an attention-based seq2seq model. These include encoders, attention-based decoders, and post-processing networks. In a high-level perspective, our model takes characters as input and generates an idiom spectrum, which is then converted into a waveform.        
-(3)"Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions"      
-https://doi.org/10.48550/arXiv.1712.05884   
-The architecture of Tacotron 2 is based on a combination of two main components: Tacotron and WaveNet. Tacotron is responsible for converting text into spectrograms, while WaveNet is responsible for converting spectrograms into high-quality speech waveforms. This end-to-end structure enables Tacotron 2 to generate speech directly from text without additional intermediate steps.Tacotron 2 uses an attention mechanism, which means that it can pay different degrees of attention to different parts of the input text during the generation of the spectrogram to improve the naturalness and fluency of speech.      
-2.Adjust the real_time model to make it smoothe. The latency have reached levels that are slightly higher than those of commercial products.       
+(3)"Toolformer: Language Models Can Teach Themselves to Use Tools"        
+https://doi.org/10.48550/arXiv.2302.04761        
+In this paper, the author proposes Toolformer to fine-tune the language model in a self-supervised manner, so that the model learns to automatically call the API without losing the commonality of the model. By invoking a range of tools, including calculators, question answering systems, search engines, translation systems, and calendars, Toolformer achieves substantially improved zero-sample performance in a variety of downstream tasks, often competing with larger models without sacrificing its core language modeling capabilities.         
+2.Alleviates the problem of low real-time audio quality.The whisper model has a hallucination problem.                
 ## Plan for Coming Week  
-1.Solve the question analyze of the low recognition rate. Device issues or python library issues?      
+1.There is no consideration of context understanding in the code logic, which will result in the low quality of the transcribed text. Try to solve the problem.               
 
 # 2023-12-24
 ## Progress for Past Week  
